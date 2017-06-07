@@ -1,0 +1,50 @@
+.container {
+    background: #eee;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main__header {
+    padding: 20px 40px;
+}
+
+.nav ul{
+    border-bottom: 1px solid gray;
+    display: block;
+    float: none;
+    overflow: auto;
+    margin-top: 30px;
+    clear: both;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    padding: 10px 20px
+}
+
+.nav a:hover{
+    background: darkslategray;
+    color: white
+}
+
+aside {
+    float: left;
+    width: 30%;
+    background: lightseagreen;
+}
+
+main {
+    clear: both;
+}
+
+.main__section {
+    float: right;
+    width: 70%;
+    background-color: rosybrown
+}
